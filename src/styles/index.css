@@ -10,3 +10,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.x-container{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+
+}
+.fa-x{
+    color: black;
+}
+.fa-x:hover{
+    color: red;
+    cursor: pointer;
+}
+.list-group-item:hover .x-container{
+display: inline-flex;
+}
+.card{
+    box-shadow:  
+    0 1px 1px rgba(0,0,0,0.15),
+    0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0,0,0,0.15),
+    0 1rem 1rem rgba(0, 0, 0, 0.15), 
+    0 1.5rem 2rem rgba(0, 0, 0, 0.1);
+}
